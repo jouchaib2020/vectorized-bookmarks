@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const searchQuery = document.getElementById('searchQuery');
 	const searchResults = document.getElementById('searchResults');
 
-	const WORKER_URL = 'http://127.0.0.1:8787';
+	const WORKER_URL = 'https://twitter-bookmarks-app.yourdomain.workers.dev';
 
 	addBookmarkForm.addEventListener('submit', async (e) => {
 		e.preventDefault();
